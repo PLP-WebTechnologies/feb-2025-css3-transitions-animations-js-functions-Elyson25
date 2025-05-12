@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Animations with Persistence</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <h1>Interactive Animations</h1>
+        
+        <div class="animated-box" id="animationTarget">
+            Click me or choose an animation!
+        </div>
+        
+        <div class="controls">
+            <button id="pulseBtn">Pulse</button>
+            <button id="spinBtn">Spin</button>
+            <button id="bounceBtn">Bounce</button>
+            <button id="stopBtn">Stop Animation</button>
+        </div>
+        
+        <div class="preference-form">
+            <h3>Save Your Preferences</h3>
+            <label for="bgColor">Background Color:</label>
+            <input type="color" id="bgColor" value="#f5f5f5">
+            
+            <label for="boxColor">Box Color:</label>
+            <input type="color" id="boxColor" value="#4a6fa5">
+            
+            <label for="defaultAnimation">Default Animation:</label>
+            <select id="defaultAnimation">
+                <option value="none">None</option>
+                <option value="pulse">Pulse</option>
+                <option value="spin">Spin</option>
+                <option value="bounce">Bounce</option>
+            </select>
+            
+            <button id="savePrefs">Save Preferences</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

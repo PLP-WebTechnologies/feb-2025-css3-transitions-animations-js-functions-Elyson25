@@ -7,6 +7,7 @@ Use JavaScript functions for dynamic behavior.
 Implement local storage for data persistence.
 
 ## Instructions
+
 Add CSS animations to elements like buttons or images.
 
 >[!NOTE]
